@@ -51,3 +51,10 @@ overflow: hidden;
     background-color: #f2cf73;
     
 }
+
+.barra-preenchida{
+    border-radius: 10px;
+    color: #9a6a3c;
+    background-color: #f2cf73;
+    margin: 5px;
+}
