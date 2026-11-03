@@ -1,0 +1,53 @@
+/* Fontes locais (pasta public/fonts), funcionam mesmo sem internet */
+@font-face { font-family: 'Rye'; src: url('/fonts/rye.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Nunito'; src: url('/fonts/nunito-400.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Nunito'; src: url('/fonts/nunito-700.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Nunito'; src: url('/fonts/nunito-800.woff2') format('woff2'); font-weight: 800; font-display: swap; }
+
+
+.grade-roca{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.foraRoca{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 1.5rem;
+}
+
+.Card{
+    margin: 5px;
+    background-color: #9a6a3c;
+}
+
+.placar-lider{
+    background-color: red;
+}
+
+img{
+    aspect-ratio: 16 / 9;
+    object-fit: cover
+    
+}
+
+.card-roca{
+    border: 4px solid #b5332a;
+}
+
+.barra{
+overflow: hidden;
+
+}
+
+.seloRoca{
+    background-color: red;
+}
+
+.botao{
+    margin: 5px;
+    background-color: #f2cf73;
+    
+}
