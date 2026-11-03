@@ -25,6 +25,8 @@ export default function Resultado() {
 
   return (
     <div>
+      <h1>Parcial da Eliminação</h1>
+      <h1>{total} votos computados</h1> 
 <button onClick={handleZerar} className="botao">
     Zerar votação
 </button>
