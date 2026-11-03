@@ -14,10 +14,10 @@ export default function ParticipanteCard({ participante, onVotar, className, res
              {resultado && (
                 
                 <div className="barra">
-                    <div className="barra-preenchida" style={{ width: `${participante.percentual}%` }}>
+                    <div style={{ width: `${participante.percentual}%` }}>
                         <p>
                             {participante.percentual.toLocaleString('pt-BR', { maximumFractionDigits: 1 })}%<br />
-                            {"I".repeat(participante.percentual)} 
+                            <p className="barra-preenchida">{"I".repeat(participante.percentual)}</p> 
                         </p>
                     </div>
                 </div>
